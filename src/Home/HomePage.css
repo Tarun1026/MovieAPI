@@ -51,10 +51,14 @@ font-weight: 800;
     color: white;
 }
 
-@media (max-width: 768px) {
+
+
+
+@media (max-width: 900px) {
     .div-1 {
         font-size: 2rem;
         padding-left: 2rem;
+        padding-top: 2rem;
     }
 
     .div-2 {
@@ -71,7 +75,7 @@ font-weight: 800;
 
 @media (max-width: 480px) {
     .div-1 {
-        /* font-size: 1.5rem; */
+        
         padding-left: 1rem;
         padding-top: 2.5rem;
     }
@@ -85,13 +89,4 @@ font-weight: 800;
         margin: 0.5rem 0;
     }
 
-    .home-page-background{
-        background-image: url('../assets/4839516.jpg');
-        background-size: cover; 
-      background-repeat: no-repeat;
-     width: 220vh;
-      height: 100vh;
-      
-    
-    }
 }

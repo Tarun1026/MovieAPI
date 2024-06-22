@@ -1,0 +1,24 @@
+{
+    "routes":[
+        {
+            "src":"/",
+            "dest": "/"
+        },
+        {
+            "src":"/popular",
+            "dest": "/"
+        },
+        {
+            "src":"/upcoming",
+            "dest": "/"
+        },
+        {
+            "src":"/top-rated",
+            "dest": "/"
+        },
+        {
+            "src":"/now-playing",
+            "dest": "/"
+        }
+    ]
+}

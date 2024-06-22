@@ -9,7 +9,6 @@ function HomePage() {
         <div className="home-page-background">
       <div className='div-1'>
         MOVIES 
-       
         
         
       </div>

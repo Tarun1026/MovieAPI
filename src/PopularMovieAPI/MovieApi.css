@@ -59,6 +59,13 @@ h2{
   font-size: 30px;
 }
 
+
+
+.loading-gif{
+
+  height:30vh;
+}
+
 @media (max-width: 768px) {
   h2 {
     font-size: 28px;

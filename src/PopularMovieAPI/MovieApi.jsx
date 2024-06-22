@@ -25,7 +25,7 @@ function MovieApi() {
                                 <p><strong className='titles'>Movie Name:</strong> {movie.title}</p>
                                 <p><strong className='titles'>Votes:</strong> {movie.vote_count}</p>
                                 <p><strong className='titles'>Popularity:</strong> {movie.popularity}</p>
-                                <p><strong className='titles'> className='titles'Release Date:</strong> {movie.release_date}</p>
+                                <p><strong className='titles'>Release Date:</strong> {movie.release_date}</p>
                                 <p><strong className='titles'>Language:</strong> {movie.original_language}</p>
                                 <p><strong className='titles'>Overview:</strong> {movie.overview}</p>
                             </div>

@@ -104,6 +104,9 @@ font-weight: 800;
     .div-3 {
         margin: 0.5rem 0;
     }
+    .dropdown{
+        margin-left: 0.9rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -116,10 +119,20 @@ font-weight: 800;
     .div-2 {
         font-size: 1.2rem;
         padding: 0.5rem;
+        background-color: rgb(249, 250, 253);
+        
     }
 
     .div-3 {
         margin: 0.5rem 0;
     }
+
+    .dropdown{
+        margin-left:0rem;
+        background-color: rgb(139, 214, 249);
+        margin-top: 0rem;
+       
+    }
+    
 
 }

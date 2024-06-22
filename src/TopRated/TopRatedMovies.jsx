@@ -22,12 +22,12 @@ function TopRatedMovies() {
                                 className="movie-poster"
                             />
                             <div className="content">
-                                <p><strong>Movie Name:</strong> {movie.title}</p>
-                                <p><strong>Votes:</strong> {movie.vote_count}</p>
-                                <p><strong>Popularity:</strong> {movie.popularity}</p>
-                                <p><strong>Release Date:</strong> {movie.release_date}</p>
-                                <p><strong>Language:</strong> {movie.original_language}</p>
-                                <p><strong>Overview:</strong> {movie.overview}</p>
+                            <p><strong className='titles'>Movie Name:</strong> {movie.title}</p>
+                                <p><strong className='titles'>Votes:</strong> {movie.vote_count}</p>
+                                <p><strong className='titles'>Popularity:</strong> {movie.popularity}</p>
+                                <p><strong className='titles'> Release Date:</strong> {movie.release_date}</p>
+                                <p><strong className='titles'>Language:</strong> {movie.original_language}</p>
+                                <p><strong className='titles'>Overview:</strong> {movie.overview}</p>
                             </div>
                         </div>
                     ))

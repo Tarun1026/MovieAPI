@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { BiSolidMoviePlay } from "react-icons/bi";
 import "./HomePage.css";
-import { Link } from "react-router-dom";
 import MovieApi from "../PopularMovieAPI/MovieApi";
 import UpComingMovies from "../UpComingMoviesAPI/UpComingMovies";
 import NowPlayingMovies from "../NowPlaying/NowPlayingMovies";
